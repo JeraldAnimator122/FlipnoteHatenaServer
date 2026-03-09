@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+    <meta name="upperlink" content="/themes/{{THEME}}/background.nbf">
+    <link rel="stylesheet" type="text/css" href="/themes/{{THEME}}/theme.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div align="center" class="head">
+        <img src="/themes/{{THEME}}/head.ntft" width="218" height="12">
+
+        <!-- PROFILE BOX -->
+        <div class="prof_out">
+            <table width="216" border="0" cellspacing="0" cellpadding="0" class="profbox">
+                <tr>
+                    <td width="5"></td>
+                    <td align="right" width="50"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td width="5" rowspan="3"></td>
+
+                    <!-- PROFILE PICTURE -->
+                    <td rowspan="3" align="right">
+                        <div class="icon" width="50">
+                            <img src="{{PFP_URL}}" width="48" height="48">
+                        </div>
+                    </td>
+
+                    <td></td>
+                </tr>
+
+                <!-- USERNAME -->
+                <tr>
+                    <td class="username">{{USERNAME}}</td>
+                </tr>
+
+                <!-- STATS -->
+                <tr>
+                    <td>
+                        <img src="/images/ds/spacer.npf" width="3" height="1">
+                        <img src="/images/ds/ranking.ntft" width="12" height="12">-
+                        <img src="/images/ds/spacer.npf" width="3" height="1">
+                        <img src="/images/ds/fans.ntft" width="12" height="12">
+
+                        <a href="/ds/v2-eu/{{FSID}}/fans.uls">
+                            <span class="more-f">{{FANS}}</span>
+                        </a><br>
+
+                        <img src="/images/ds/spacer.npf" width="0" height="1">
+
+                        <span class="star0c">★</span><span class="star0c">{{STARS_RED}}</span>
+                        <span class="star1c">★</span><span class="star1">{{STARS_BLUE}}</span>
+                    </td>
+                </tr>
+
+                <!-- SEE MORE -->
+                <tr>
+                    <td colspan="3">
+                        <div class="item-value">
+                            <div align="right">
+                                <a href="/ds/v2-eu/{{FSID}}/profile.htm?mode=detail">
+                                    <span class="more-f">See more</span>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <img src="/themes/{{THEME}}/foot.ntft" width="218" height="5">
+    </div>
+
+    <!-- FLIPNOTES BUTTON -->
+    <div class="send" align="center">
+        <a href="/ds/v2-eu/{{FSID}}/movies.uls">
+            <img src="/themes/{{THEME}}/send.ntft" width="218" height="32" class="button">
+        </a>
+
+        <div align="right">
+            <a href="/ds/v2-eu/{{FSID}}/movies.uls">See more</a>
+        </div>
+    </div>
+
+    <!-- DETAIL TABLE -->
+    <table width="226" border="0" cellspacing="0" cellpadding="0" class="detail">
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+        <tr>
+            <th width="80"><div class="item-term" align="left">Posted Comments</div></th>
+            <td width="146"><div class="item-value" align="right">{{COMMENTS}}</div></td>
+        </tr>
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+        <tr>
+            <th width="80"><div class="item-term" align="left">Starred Flipnotes</div></th>
+            <td width="146">
+                <div class="item-value" align="right">
+                    <a href="/ds/v2-eu/{{FSID}}/favorite/movies.uls">{{FAVORITE_MOVIES}}</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+        <tr>
+            <th width="80"><div class="item-term" align="left">Favourite Creators</div></th>
+            <td width="146">
+                <div class="item-value" align="right">
+                    <a href="/ds/v2-eu/{{FSID}}/favorite/authors.uls">{{FAVORITE_CREATORS}} People</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+        <tr>
+            <th width="80"><div class="item-term" align="left">Channels created</div></th>
+            <td width="146">
+                <div class="item-value" align="right">
+                    <a href="/ds/v2-eu/{{FSID}}/channels.uls?type=owned">{{OWNED_CHANNELS}}</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+        <tr>
+            <th width="80"><div class="item-term" align="left">Favourite Channels</div></th>
+            <td width="146">
+                <div class="item-value" align="right">
+                    <a href="/ds/v2-eu/{{FSID}}/channels.uls">{{FAVORITE_CHANNELS}}</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td colspan="2"><div class="hr"></div></td></tr>
+
+    </table>
+
+    <!-- FRIENDS + STARS -->
+    <div class="notice2">
+
+        <div align="left">
+            <img src="/images/ds/key.ntft" width="10" height="12"> Flipnote Friends
+        </div>
+        <div align="right">
+            <a href="/ds/v2-eu/friends.uls">{{FRIENDS}} People</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <div align="left">
+            <img src="/images/ds/key.ntft" width="10" height="12"> Stars you can use
+        </div>
+
+        <div align="right">
+            <span class="star0c">★</span><span class="star0">∞</span>
+            <span class="star1c">★</span><span class="star1">{{STARS_BLUE}}</span>
+            <span class="star2c">★</span><span class="star2">{{STARS_GREEN}}</span>
+            <span class="star3c">★</span><span class="star3">{{STARS_PURPLE}}</span>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- THEME -->
+        <table>
+            <tr>
+                <td width="50">
+                    <div class="icon" width="50">
+                        <a href="/ds/v2-eu/{{FSID}}/profile.htm?mode=edit">
+                            <img src="/themes/{{THEME}}/item.ntft" width="48" height="48">
+                        </a>
+                    </div>
+                </td>
+                <td width="3"></td>
+                <td>
+                    Current Theme<br>
+                    <a href="/ds/v2-eu/{{FSID}}/profile.htm?mode=edit">Change</a>
+                </td>
+            </tr>
+        </table>
+
+        <div class="hr"></div>
+
+        <!-- NOTIFICATION SETTINGS -->
+        <div align="left" class="mar-b10">Notification Settings</div>
+
+        <div align="left">Service-related announcements</div>
+        <div align="right">Receive</div>
+
+        <div align="left">Newsletters and activity reports</div>
+        <div align="right">Receive</div>
+
+        <div align="right">
+            <a href="/ds/v2/setting.letter.htm">Change</a>
+        </div>
+
+    </div>
+
+    <!-- SETTINGS -->
+    <div class="notice2">
+        <div align="center">
+            <img src="/images/ds/setting_icon.ntft" width="13" height="13"> Settings
+        </div>
+
+        <div class="pad5b"></div>
+        <div class="hr"></div>
+        <div class="pad5b"></div>
+
+        <table>
+            <tr>
+                <td width="100" align="center">
+                    <a href="/ds/v2-eu/letter/setting.htm">Mail Settings</a>
+                </td>
+                <td width="100" align="center">
+                    <a href="/ds/v2-eu/{{FSID}}/setting.htm">Service Settings</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
