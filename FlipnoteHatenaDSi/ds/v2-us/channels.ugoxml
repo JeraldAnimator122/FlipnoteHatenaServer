@@ -1,0 +1,33 @@
+<ugo_xml>
+    <layout>
+        <title>Channels</title>
+        
+        <button>
+            <title>Animation</title>
+            <url>http://flipnote.hatena.com/ds/v2-us/data/hotugoFlipnote.py?cat=3</url>
+            <icon>0</icon>
+            <target>_self</target>
+        </button>
+
+        <button>
+            <title>Characters</title>
+            <url>http://flipnote.hatena.com/ds/v2-us/data/hotugoFlipnote.py?cat=10</url>
+            <icon>0</icon>
+            <target>_self</target>
+        </button>
+
+        <button>
+            <title>Stick Figures</title>
+            <url>http://flipnote.hatena.com/ds/v2-us/data/hotugoFlipnote.py?cat=5</url>
+            <icon>0</icon>
+            <target>_self</target>
+        </button>
+
+        <button>
+            <title>Weekly Topic: Thank You</title>
+            <url>http://flipnote.hatena.com/ds/v2-us/data/hotugoFlipnote.py?topic=true</url>
+            <icon>371</icon>
+            <target>_self</target>
+        </button>
+    </layout>
+</ugo_xml>
